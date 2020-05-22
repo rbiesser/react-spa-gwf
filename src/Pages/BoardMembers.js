@@ -1,0 +1,43 @@
+import React from 'react'
+import { Container, Header } from 'semantic-ui-react'
+
+function BoardMembers() {
+    return(
+        <Container>
+            <Header as='h1' color='blue' content='Board Members' />
+            <Header as='h2' content='MICHAEL HANSEN' />
+            <p>Chairman of the Board</p><br />
+            <p>Born and raised in San Clemente, California, Michael is a life-long surfer, a certified PADI diver, holds a USCG 100-ton masters license and spends almost every day either in the water or on the water. Many would say he the quintessential waterman.</p>
+            <p>However, this waterman desired more from his daily experience with Mother Ocean, and founded the Gray Whale Foundation in 2009. As he witnessed the decrease in coastal navigating Gray Whales each year and the increasing inability of schools to offer on-the-water educational opportunities for their students, Michael knew he had to step up and form an organization that could address both of these concerning issues.</p>
+            <p>Michael is a graduate of San Diego State University and the son of Don Hansen, founder and original operator of Dana Wharf Sport-fishing and Whale Watching in Dana Point, CA. This incredible father/son team have served on numerous boards and commissions over the past 30 years. This ongoing service to the community and multiple regulatory agencies provides Michael with a well-rounded knowledge and platform for administering the Gray Whale Foundation’s mission and purpose.</p>
+
+            <Header as='h2' content='COREY HALL' />
+            <p>Vice Chair</p><br />
+            <p>In 1994, at the age of 19, Corey received his USCG 100-ton masters license and began his almost daily journey out into the Pacific Ocean to delight and amaze visitors from around the world by introducing them to the vast amount of marine wildlife teeming just off the coast of California. These daily whale watching and wildlife sighting excursions have taught Corey an incredible respect and appreciation for Earth’s finite natural resources.Corey is currently operations manager for family-owned Dana Wharf Sport-fishing and Whale Watching, the first Orange County-based whale watching company, established in 1973 immediately following the opening of the 2500-slip Dana Point Harbor. A graduate of Pepperdine University with a Bachelor’s Degree in Business Management, Corey brings the perfect combination of business acumen and operational knowledge to the Gray Whale Foundation.</p>
+
+            <Header as='h2' content='TODD MANSUR' />
+            <p>Treasurer</p><br />
+            <p>Todd Mansur was born in Laguna Beach and for the past 32 years has had a career on the ocean.&nbsp; Through a variety of experiences he has had the opportunity to observe hundreds of different marine species, both fish and mammals.</p>
+            <p>At the young and impressionable age of 13 he was the only crew member for a 20 passenger operation that fished during the spring, summer, and fall.&nbsp; During the winter he crewed for a whale watching operation.&nbsp; This early exposure to Mother Ocean had a huge impact on Todd.&nbsp; At 19 he actually purchased his own vessel and has continued to work on the ocean and enjoy its bounty in many ways, and in turn has generously shared his up close and personal knowledge with thousands.</p>
+            <p>In 1992 he became Dana Wharf Whale Watching’s lead naturalist and conducts all of the pre-excursion in-classroom education for Orange County’s schools.&nbsp; This is also a major role for Todd with the Gray Whale Foundation. Todd is a published author on the topic of marine mammals and does public speaking engagements on the topic upon request.</p>
+
+            <Header as='h2' content='MITCH ALLEN' />
+            <p>Board Member</p><br />
+            <p>Mitchell J. Allen is President of the ALLEN FAMILY AUTOMOTIVE GROUP, which consists of Cadillac, GMC Trucks, and Hyundai Franchises located in Laguna Niguel, California.</p>
+            <p>ALLEN CADILLAC, GMC, and HYUNDAI is the third Generation Dealership that was founded in 1947, by Mitch’s Grandfather, Stanley Allen and was originally located in Laguna Beach for 25 years.&nbsp; Once his Father Dennis Allen joined the team, he then relocated the Dealership to Laguna Niguel in 1972, where it is today.</p>
+            <p>Mitch grew up in Newport Beach, California and graduated from Newport Harbor High in 1978 and attended Orange Coast College.&nbsp; He took 6 months off to travel around the world on “The Semester at Sea” program&nbsp;US Boulder.&nbsp; After deciding that his career path would indeed be in the&nbsp;Automotive industry, he attended Northwood University in Cedar Hill, Texas which is an Automotive Marketing College.&nbsp; Upon graduation, Mitch began his career as a Sales Consultant at Allen Oldsmobile Cadillac GMC.&nbsp; After a couple of years, he transfered to the Finance and Insurance Department and a few years later, was appointed Oldsmobile Sales Manager.&nbsp; In June of 1991 and with the retirement of his father, Mitchell became the General Manager and President of Operations.</p>
+            <p>With 30 years of vast experience, Mitch has participated in dozens of Management courses. General Motors School of Management and Kellogg’s Business School are just a few.&nbsp; For 22 years, he has been an active member of Nichols, Campbell, and Marrow “Twenty Group” which is a group of innovative Car Dealers that meets several times a year.&nbsp; Mitch served as President of the “Orange County Auto Dealers Association” (2000 to 2004)</p>
+            <p>Mitch was instrumental in setting up the ALLEN Family Foundation, which donates to several causes.&nbsp; He also served on the Board of Directors for “The Ocean Institute” located in Dana Point, California.&nbsp; Being semi-retired now, Mitch has continued his involvement in Charities that serve our community with donations to local schools, sport teams, and many events.</p>
+            <p>Mitchell credits his wife of 24 years with keeping him centered with a loving, supportive, and spiritual life, making him the man he is today.&nbsp; Sharon and Mitch have two lovely daughters, Ashley, who recently graduated from Pepperdine University and Courtney, who is currently attending Pepperdine as well.</p>
+
+            <Header as='h2' content='DEANNA HANSEN' />
+            <p>Board Member | Administrator | Secretary</p><br />
+            <p>Deanna Hansen graduated from Rosemead High School, Rosemead, CA in 1979. She moved to Orange County after graduation and went to Saddleback College in Mission Viejo, CA. for a couple of years taking classes in Business and Accounting. She began a career in banking in 1980 at San Clemente Savings and Loan Association, starting off as a Teller and worked her way up to becoming Branch Manager. In 1984 she helped start up a new business with Assured Thrift and Loan and was Manager of the San Clemente Branch. In 1986 Deanna began her career in Real Estate and became a Real Estate Loan Processor. In 1993, she became pregnant with her first child and started a new Mortgage Company which enabled her to work from her home as an independent Real Estate Loan Processor until 2006 when the Real Estate Industry changed. It was very important to her to be a stay at home mom while her children were growing up and to continue on with her career in Real Estate. Her organizational skills and meeting deadlines is an asset to The Gray Whale Foundation.</p>
+            <p>In 2001 Our Savior’s Lutheran Church and School appointed Deanna to be on the Board of Directors for the Elementary School her son and daughter were attending. She served as the Secretary until 2003, her duties included writing the Board meeting minutes, creating a parent survey and evaluating results of parents expectations. She also arraigned Whale Watching trips for her children’s classes from Kindergarten to 8th grade from 2000-2008. For eight years these students learned the importance of the Gray Whale and its inhabitants. What a great opportunity it was to see the expressions on these children’s faces when they experienced their first Gray Whale sighting. It was priceless. They also got to enjoy other mammals and marine life around them and the importance of protecting our oceans.</p>
+            <p>In 1983 Deanna became a certified PADI diver and enjoyed the magnificent world under the sea. She also became involved in windsurfing and the Regatta scene, racing Hobie Cat’s up and down the coast in 1983-1985 and has spent numerous hours on the ocean throughout the years.</p>
+
+        </Container>
+    )
+}
+
+export default BoardMembers
