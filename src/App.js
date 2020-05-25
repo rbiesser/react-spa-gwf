@@ -18,13 +18,15 @@ import {
   Switch,
   Route
 } from 'react-router-dom'
-import { Container } from 'semantic-ui-react'
+import { Container, Image } from 'semantic-ui-react'
 
 function App() {
   return (
     <Container>
       <HashRouter>
-        <header>
+        <header style={{marginTop:10}}>
+          <Container style={{height:40}} />
+          <Image src='/img/logo.png' size='medium' centered />
           <NavMenu />
         </header>
         <main>
@@ -39,7 +41,7 @@ function App() {
             <Route path='/' component={Home} />
           </Switch>
         </main>
-        <footer>This is the footer</footer>
+        <footer>Copyright &copy; {new Date().getFullYear()} The Gulf of Catalina Gray Whale Preservation &amp; Education Foundation | All Rights Reserved</footer>
       </HashRouter>
     </Container>
   );

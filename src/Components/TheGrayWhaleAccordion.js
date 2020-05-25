@@ -16,7 +16,7 @@ export default class TheGrayWhaleAccordion extends Component {
     const { activeIndex } = this.state
 
     return (
-      <Accordion fluid>
+      <Accordion styled fluid>
         <Accordion.Title
           active={activeIndex === 0}
           index={0}
@@ -60,28 +60,28 @@ export default class TheGrayWhaleAccordion extends Component {
         </Accordion.Content>
 
         <Accordion.Title
-          active={activeIndex === 2}
-          index={2}
+          active={activeIndex === 3}
+          index={3}
           onClick={this.handleClick}
         >
           <Icon name='dropdown' />
           Feeding
         </Accordion.Title>
-        <Accordion.Content active={activeIndex === 2}>
+        <Accordion.Content active={activeIndex === 3}>
             <p>The whale feeds mainly on benthic crustaceans, which it eats by turning on its side (usually the right, resulting in loss of eyesight in the right eye for many older animals) and scooping up sediments from the sea floor. It is classified as a baleen whale and has baleen, or whalebone, which acts like a sieve, to capture small sea animals, including amphipods taken in along with sand, water and other material.</p>
             <p>Mostly, the animal feeds in the northern waters during the summer; and opportunistically feeds during its migration, depending primarily on its extensive fat reserves. Calf gray whales drink 50 to 80 US gallons (190 to 300 l) of their mothers’ 53% fat milk per day.</p>
             <p>The main feeding habitat of the western Pacific subpopulation is the shallow (5-15 m depth) shelf off northeastern Sakhalin Island, particularly off the southern portion of Piltun Lagoon, where the main prey species appear to be amphipods and isopods. In some years, the whales have also used an offshore feeding ground in 30–35 m depth southeast of Chayvo Bay, where benthic amphipods and cumaceans are the main prey species. Some gray whales have also been seen off western Kamchatka, but to date all whales photographed there are also known from the Piltun area. Gray whale breaching off the coast of Santa Barbara, California.</p>
         </Accordion.Content>
 
         <Accordion.Title
-          active={activeIndex === 2}
-          index={2}
+          active={activeIndex === 4}
+          index={4}
           onClick={this.handleClick}
         >
           <Icon name='dropdown' />
           Migration
         </Accordion.Title>
-        <Accordion.Content active={activeIndex === 2}>
+        <Accordion.Content active={activeIndex === 4}>
             <p>Each October, as the northern ice pushes southward, small groups of eastern gray whales in the eastern Pacific start a two to three month, 8,000-11,000 kilometer (5,000-6,800 mi) trip south. Beginning in the Bering and Chukchi seas and ending in the warm-water lagoons of Mexico’s Baja peninsula and the southern Gulf of California, they travel along the west coast of Canada, the United States and Mexico. The western gray whale summers in the Okhotsk Sea, mainly off the northeastern coast of Sakhalin Island (Russian Federation).</p>
             <p>There are also occasional sightings off the eastern coast of Kamchatka (Russian Federation) and in other coastal waters of the northern Okhotsk Sea,. Its migration routes and wintering grounds are poorly known, the only recent information being from occasional records on both the eastern and western coasts of Japan and along the Chinese coast. The calving grounds are unknown but may be around Hainan Island, this being the southwestern end of the known range. Traveling night and day, the gray whale averages approximately 120 km (75 mi) per day at an average speed of 8 kilometers per hour (5 mph). This round trip of 16,000-22,000 km (9,900-14,000 mi) is believed to be the longest annual migration of any mammal. By mid-December to early January, the majority are usually found between Monterey and San Diego, often visible from shore. The whale watching industry provides ecotourists and marine mammal enthusiasts the opportunity to see groups of gray whales as they migrate. By late December to early January, eastern grays begin to arrive in the calving lagoons of Baja.</p>
             <p>The three most popular lagoons are Laguna Ojo de Liebre (formerly known in English as Scammon’s Lagoon after whaleman Charles Melville Scammon, who discovered the lagoons in the 1850s and hunted the grays), San Ignacio, and Magdalena. These first whales to arrive are usually pregnant mothers looking for the protection of the lagoons to bear their calves, along with single females seeking mates. By mid-February to mid-March, the bulk of the population has arrived in the lagoons, filling them with nursing, calving and mating gray whales. Throughout February and March, the first to leave the lagoons are males and females without new calves. Pregnant females and nursing mothers with their newborns are the last to depart, leaving only when their calves are ready for the journey, which is usually from late March to mid-April. Often, a few mothers linger with their young calves well into May. By late March or early April, the returning animals can be seen from Everett, Washington, to Puget Sound to Canada. A population of about 200 gray whales stay along the eastern Pacific coast from Canada to California throughout the summer, not making the farther trip to Alaskan waters. This summer resident group is known as the Pacific Coast feeding group.</p>
