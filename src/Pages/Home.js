@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Container, Image, Header, Grid, Segment } from 'semantic-ui-react'
+import ContributorLogo from '../Components/ContributorLogo.js'
+import contributors from '../Data/Contributors'
 
 function Home() {
     return(
@@ -39,38 +41,11 @@ function Home() {
                 
                 <Grid>
                     <Grid.Row columns={5}>
-                        <Grid.Column>
-                            <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                        </Grid.Column>
-                        <Grid.Column>
-                            <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                        </Grid.Column>
-                        <Grid.Column>
-                            <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                        </Grid.Column>
-                        <Grid.Column>
-                            <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                        </Grid.Column>
-                        <Grid.Column>
-                            <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                        </Grid.Column>
-                    </Grid.Row>
-                    <Grid.Row columns={5}>
-                        <Grid.Column>
-                            <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                        </Grid.Column>
-                        <Grid.Column>
-                            <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                        </Grid.Column>
-                        <Grid.Column>
-                            <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                        </Grid.Column>
-                        <Grid.Column>
-                            <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                        </Grid.Column>
-                        <Grid.Column>
-                            <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
-                        </Grid.Column>
+                        {contributors.map((contributor, index) => (
+                            <Grid.Column>
+                                <ContributorLogo contributor={contributor} />
+                            </Grid.Column>
+                        ))}
                     </Grid.Row>
                 </Grid>
             </Container>
