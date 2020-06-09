@@ -1,13 +1,13 @@
 import React from 'react'
 import { Container, Header } from 'semantic-ui-react'
+import TripSummariesTabPanel from '../Components/TripSummariesTabPanel'
 
-function TripSummaries() {
+export default function TripSummaries() {
     return(
         <Container content>
             <Header as='h1' color='blue' content='Trip Summaries' />
             <p>Read our our captain and marine naturalist’s latest trip summaries below.</p>
+            <TripSummariesTabPanel />
         </Container>
     )
 }
-
-export default TripSummaries
