@@ -11,9 +11,9 @@ const panes = []
 tripSummaries.sort((a, b) => (a.index < b.index) ? 1 : -1)
 
 // each pane is an object of a title for the tab and the component to render
-{tripSummaries.map((tripSummary, index) => (
+tripSummaries.map((tripSummary, index) => (
     panes.push({menuItem: `Trip Report: ${tripSummary.date}`, render: () => <TripSummary event={tripSummary} />})
-))}
+))
 
 const TripSummariesTabPanel = () => (
   <Tab menu={{ fluid: true, vertical: true, tabular: 'right' }} panes={panes} />
