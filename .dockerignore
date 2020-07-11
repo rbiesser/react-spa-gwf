@@ -1,0 +1,12 @@
+# git files
+.git
+.gitignore
+
+# dependencies
+node_modules
+build
+
+# docker files
+.dockerignore
+Dockerfile
+Dockerfile.prod
