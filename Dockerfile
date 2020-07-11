@@ -4,7 +4,7 @@
 # https://medium.com/better-programming/9-tips-for-local-node-js-development-using-docker-compose-19789f44158
 # https://mherman.org/blog/dockerizing-a-react-app/
 
-FROM node:14
+FROM node:alpine
 
 WORKDIR /home/node/app
 
