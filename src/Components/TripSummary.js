@@ -11,12 +11,12 @@ export default function TripSummary(props) {
             <p>Departure: {props.event.departure}</p>
             <p>Weather: {props.event.weather}</p>
             {props.event.log.map((entry, index) => (
-                <p>{entry}</p>
+                <p key={index}>{entry}</p>
             ))}
             <h3>Total Sightings</h3>
             <ul>
             {props.event.sightings.map((sighting, index) => (
-                <li>{sighting}</li>
+                <li key={index}>{sighting}</li>
             ))}
             </ul>
         </Container>

@@ -4,7 +4,7 @@ import TheGrayWhaleAccordion from '../Components/TheGrayWhaleAccordion'
 
 function TheGrayWhale() {
     return(
-        <Container content>
+        <Container>
             <Header as='h1' color='blue' content='The Gray Whale' />
             <Image src='/img/whale.png' floated='right' />
             <p>The gray whale, (Eschrichtius robustus), is a baleen whale that migrates between feeding and breeding grounds yearly. It reaches a length of about 15.2 m (50 ft), a weight of 36 tonnes (35 long tons; 40 short tons), and lives 50-70 years. The common name of the whale comes from the gray patches and white mottling on its dark skin.</p>

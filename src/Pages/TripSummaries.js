@@ -4,7 +4,7 @@ import TripSummariesTabPanel from '../Components/TripSummariesTabPanel'
 
 export default function TripSummaries() {
     return(
-        <Container content>
+        <Container>
             <Header as='h1' color='blue' content='Trip Summaries' />
             <p>Read our our captain and marine naturalist’s latest trip summaries below.</p>
             <TripSummariesTabPanel />

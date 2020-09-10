@@ -42,7 +42,7 @@ function Home() {
                 <Grid>
                     <Grid.Row columns={5}>
                         {contributors.map((contributor, index) => (
-                            <Grid.Column>
+                            <Grid.Column key={index}>
                                 <ContributorLogo contributor={contributor} />
                             </Grid.Column>
                         ))}
